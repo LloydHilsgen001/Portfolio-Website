@@ -1,0 +1,57 @@
+html {
+ background-color: rgb(55,55,55);
+}
+p {
+ color: rgb(240,240,240);
+ font-family: 'Rubik', sans-serif;
+}
+a {
+ font-family: 'Rubik', sans-serif;
+ border-style: outset;
+ color: rgb(0,0,0);
+ background-color: rgb(210,210,210);
+ border-color: rgb(225,225,225);
+}
+h4 {
+ font-family: 'Rubik', sans-serif;
+ border-style: outset;
+ background-color: rgb(210,210,210);
+ border-color: rgb(225,225,225);
+}
+img {
+width: 25%;
+height: 25%;
+}
+.dropdown {
+ position: absolute;
+ top: -16px;
+ left: 65px;
+
+}
+.dropdowncontent {
+ display: none;
+ position: absolute;
+ top:  46px;
+ left: 0px;
+}
+.dropdowncontent a {
+  display: block;
+}
+.dropdown:hover .dropdowncontent {
+ display: block;
+}
+.middle {
+ position: absolute;
+ top: 440px;
+ left: 650px;
+}
+.nowadays p {
+ display: inline-block;
+}
+.nowadays a {
+ border-style: none;
+ color: rgb(240,240,240);
+ background-color: transparent;
+ border-color: transparent;
+ margin-left: 2px;
+}
