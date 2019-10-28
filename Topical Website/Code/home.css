@@ -25,13 +25,13 @@ h4 {
 .dropdown {
  position: absolute;
  top: -16px;
- left: 65px;
+ left: 150px;
 
 }
 .dropdowncontent {
  display: none;
  position: absolute;
- top:  46px;
+ top:  50px;
  left: 0px;
 }
 .dropdowncontent a {
