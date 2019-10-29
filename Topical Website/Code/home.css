@@ -1,42 +1,58 @@
 html {
- background-color: rgb(55,55,55);
+	background-image:url("../Resources/hakaiplant.jpg")
 }
 p {
- color: rgb(240,240,240);
- font-family: 'Rubik', sans-serif;
+ 	color: rgb(240,240,240);
+ 	font-family: 'Rubik', sans-serif;
 }
 .header a {
- font-family: 'Rubik', sans-serif;
- border-style: outset;
- color: rgb(0,0,0);
- background-color: rgb(210,210,210);
- border-color: rgb(225,225,225);
+ 	font-family: 'Rubik', sans-serif;
+ 	color:antiquewhite;
+ 	text-decoration: none;
+ 	outline-color:rgb(87,87,87);
+ 	outline-style:solid;
+ 	outline-width:thin;
+ 	background-color:(225,225,225);
 }
 h1 {
- font-family: 'Rubik', sans-serif;
- 
-}
+ 	font-family: 'Rubik', sans-serif;
+}	
 h4 {
- font-family: 'Rubik', sans-serif;
- border-style: outset;
- background-color: rgb(210,210,210);
- border-color: rgb(225,225,225);
+ 	font-family: 'Rubik', sans-serif;
 }
 .dropdown {
- position: absolute;
- top: -16px;
- left: 150px;
-
+ 	text-decoration: none;
+ 	outline-color:rgba(0,0,0,0.00);
+ 	outline-style:solid;
+ 	outline-width:thin;
+ 	position: absolute;
+ 	top: -16px;
+ 	left: 140px;
+ 	letter-spacing: 2px;	
 }
 .dropdowncontent {
- display: none;
- position: absolute;
- top:  50px;
- left: 0px;
+	display: none;
+	position: absolute;
+	top:  43px;
+	left: 0px;
+	letter-spacing: 0px;
 }
 .dropdowncontent a {
-  display: block;
+	display: block;
 }
 .dropdown:hover .dropdowncontent {
- display: block;
+	display: block;
+}
+body h1 {
+	color:antiquewhite;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-display: block;
+	letter-spacing: 2px;
+	position:static;
+}
+body p {
+	color:antiquewhite;
+	font-family: Arial, Helvetica, sans-serif;
+	position:static;
 }
