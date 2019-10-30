@@ -1,3 +1,8 @@
+html {
+	background-image:url("../Resources/greenplants.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 p {
  	color: rgb(240,240,240);
  	font-family: 'Rubik', sans-serif;

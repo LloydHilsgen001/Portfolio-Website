@@ -1,3 +1,6 @@
+html {
+	background-image:url("../Resources/tubes.jpg");
+}
 p {
  	color: rgb(240,240,240);
  	font-family: 'Rubik', sans-serif;
