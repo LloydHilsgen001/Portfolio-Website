@@ -55,14 +55,37 @@ body p {
 	font-family: Arial, Helvetica, sans-serif;
 	position:static;
 }
-body h1 {	
+body h1 {
+	color:antiquewhite;
 	font-family: Arial, Helvetica, sans-serif;
 	font-display: block;
 	letter-spacing: 2px;
 	position:static;
 	font-size:50px;
+	text-align: left;
+}
+.header h1 {
 	text-align: center;
 }
-head h1{
-	text-align: left;
+.efficiencycontents{
+	display:none;
+}
+.sustaincontents{
+	display:none;
+}
+.safetycontents{
+	display:none;
+}
+.efficiency:hover .efficiencycontents {
+	display: block;
+	transition: 0s;
+}
+.sustain:hover .sustaincontents{
+	display: block;
+	transition: 0s;
+}
+.safety:hover .safetycontents{
+	display: block;
+	transition: 0s;
+	    transition:0s 180s;
 }
