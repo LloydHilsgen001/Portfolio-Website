@@ -92,4 +92,5 @@ body h1 {
 }
 .safety:hover .safetycontent {
 	display: block;
+	position: relative;
 }
