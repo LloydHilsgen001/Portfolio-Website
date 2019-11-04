@@ -67,6 +67,15 @@ body h1 {
 .header h1 {
 	text-align: center;
 }
+.efficiencycontents a {
+	display: block;
+}
+.sustaincontents a {
+	display: block;
+}
+.safetycontents a {
+	display: block;
+}
 .efficiencycontents{
 	display:none;
 }
@@ -78,14 +87,10 @@ body h1 {
 }
 .efficiency:hover .efficiencycontents {
 	display: block;
-	transition: 0s;
 }
 .sustain:hover .sustaincontents{
 	display: block;
-	transition: 0s;
 }
 .safety:hover .safetycontents{
 	display: block;
-	transition: 0s;
-	    transition:0s 180s;
 }
