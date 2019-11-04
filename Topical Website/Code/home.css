@@ -1,7 +1,7 @@
 html {
 	background-image:url("../Resources/hakaiplant.jpg")
 }
-p {
+.header p {
  	color: rgb(240,240,240);
  	font-family: 'Rubik', sans-serif;
 }
@@ -52,7 +52,7 @@ body h2 {
 body p {
 	color:antiquewhite;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
+
 }
 body h1 {
 	color:antiquewhite;
@@ -66,31 +66,73 @@ body h1 {
 .header h1 {
 	text-align: center;
 }
-.efficiencycontent {
-	display: none;
-	text-align: left;
-}
-.sustaincontent {
-	display: none;
-	text-align: left;
-}
-.efficiency:hover .efficiencycontent{
-	display: block;
-}
-.sustain:hover .sustaincontent{
-	display: block;
-}
 .safetycontent {
 	display: none;
 	position: absolute;
 	top:  43px;
 	left: 0px;
 	letter-spacing: 0px;
+	transition: 0s, 180s;
 }
 .safetycontent p {
+	color:black;
+	text-indent: 3px;
+	text-align: left;
 	display: block;
+	line-height: 10px;
 }
 .safety:hover .safetycontent {
 	display: block;
-	position: relative;
+	position: absolute;
+	top: 865px;
+	left: 150px;
+	transition: 0s;
+}
+.safety {
+	height: 250px;
+}
+.sustaincontent {
+	display: none;
+	position: absolute;
+	top:  43px;
+	left: 0px;
+	letter-spacing: 0px;
+}
+.sustaincontent p {
+	text-align: left;
+	display: block;
+	line-height: 10px;
+}
+.sustain:hover .sustaincontent {
+	display: block;
+	position: absolute;
+	top: 500px;
+	left: 10px;
+}
+.sustain {
+	height: 250px;
+}
+.efficiencycontent {
+	display: none;
+	position: absolute;
+	top:  43px;
+	left: 0px;
+	letter-spacing: 0px;
+}
+.efficiencycontent p {
+	text-align: left;
+	display: block;
+	line-height: 10px;
+}
+.efficiency:hover .efficiencycontent {
+	display: block;
+	position: absolute;
+	top: 500px;
+	left: 10px;
+}
+.efficiency {
+	height: 250px;
+}
+.climate{
+	text-align: center;
 }
