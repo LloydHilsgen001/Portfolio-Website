@@ -50,10 +50,9 @@ body h2 {
 	text-align: center;
 }
 body p {
-	text-align: center;
 	color:antiquewhite;
 	font-family: Arial, Helvetica, sans-serif;
-	position:static;
+	text-align: center;
 }
 body h1 {
 	color:antiquewhite;
@@ -67,30 +66,30 @@ body h1 {
 .header h1 {
 	text-align: center;
 }
-.efficiencycontents a {
+.efficiencycontent {
+	display: none;
+	text-align: left;
+}
+.sustaincontent {
+	display: none;
+	text-align: left;
+}
+.efficiency:hover .efficiencycontent{
 	display: block;
 }
-.sustaincontents a {
+.sustain:hover .sustaincontent{
 	display: block;
 }
-.safetycontents a {
+.safetycontent {
+	display: none;
+	position: absolute;
+	top:  43px;
+	left: 0px;
+	letter-spacing: 0px;
+}
+.safetycontent p {
 	display: block;
 }
-.efficiencycontents{
-	display:none;
-}
-.sustaincontents{
-	display:none;
-}
-.safetycontents{
-	display:none;
-}
-.efficiency:hover .efficiencycontents {
-	display: block;
-}
-.sustain:hover .sustaincontents{
-	display: block;
-}
-.safety:hover .safetycontents{
+.safety:hover .safetycontent {
 	display: block;
 }
