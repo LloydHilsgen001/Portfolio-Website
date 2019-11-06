@@ -7,6 +7,9 @@ p {
  	color: rgb(240,240,240);
  	font-family: 'Rubik', sans-serif;
 }
+.header {
+	height: 65px;
+}
 .header a {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
@@ -30,7 +33,7 @@ h2 {
  	position: absolute;
  	top: -16px;
  	left: 140px;
- 	letter-spacing: 2px;	
+ 	letter-spacing: 2px;
 }
 .dropdowncontent {
 	display: none;
@@ -44,4 +47,8 @@ h2 {
 }
 .dropdown:hover .dropdowncontent {
 	display: block;
+}
+.flyash{
+	position:relative;
+	background-color:rgba(0,0,0,0.10);
 }
