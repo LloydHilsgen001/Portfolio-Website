@@ -1,6 +1,9 @@
 html {
 	background-image:url("../Resources/hakaiplant.jpg")
 }
+a {
+	text-decoration: none;
+}
 .header p {
  	color: rgb(240,240,240);
  	font-family: 'Rubik', sans-serif;
@@ -8,7 +11,6 @@ html {
 .header a {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
- 	text-decoration: none;
  	outline-color:rgb(87,87,87);
  	outline-style:solid;
  	outline-width:thin;
