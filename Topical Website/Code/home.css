@@ -92,7 +92,9 @@ body h1 {
 	left: 5px;
 	transition: 0s;
 }
-.safety {
+.safety { 
+	/* makes sure that the size of the document doesn't change when hovered.
+	   also controls the size of the hole that shows when not hovered */
 	height: 200px;
 }
 .sustaincontent {
@@ -152,4 +154,9 @@ body h1 {
 }
 .climate{
 	text-align: center;
+}
+#thorvid {
+	position: absolute;
+	top: 300px;
+	left: 1000px;
 }
