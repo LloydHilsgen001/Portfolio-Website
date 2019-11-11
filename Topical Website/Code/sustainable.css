@@ -2,7 +2,7 @@ html {
 	background-image:url("../Resources/tubes.jpg");
 }
 p {
- 	color: rgb(240,240,240);
+ 	color: antiquewhite;
  	font-family: 'Rubik', sans-serif;
 }
 .header a {
@@ -17,8 +17,9 @@ p {
 h1 {
  	font-family: 'Rubik', sans-serif;
 }	
-h2 {
+h3 {
  	font-family: 'Rubik', sans-serif;
+	color:antiquewhite;
 }
 .dropdown {
  	text-decoration: none;
@@ -42,4 +43,15 @@ h2 {
 }
 .dropdown:hover .dropdowncontent {
 	display: block;
+}
+.GraphP p {
+	position: relative;
+	left: 550px;
+	top: -280px;
+}
+.GraphP{
+	height:0px;
+}
+.risingneeds{
+	background-color: rgba(0,0,0,0.30);
 }

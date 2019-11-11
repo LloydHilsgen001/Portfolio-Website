@@ -18,22 +18,31 @@
 </div>
 </head>
 <body>
-<button type="button" id="myBtn" onclick="myFunction()">Move the button</button>
-
-<script>
-function myFunction() {
-  document.getElementById("myBtn").style.left = "100px";
-}
-</script>
-	<div class="flyash">
-		<p>"The fly ash emitted by a coal power plant—a by-product from burning coal for electricity
-			carries into the surrounding environment</p>
-		<p> 100 times more radiation than a nuclear
-			power plant producing the same amount of energy."</p>
-		<p>-Dana Christensen: Associate Lab Director at Oak Ridge National Laboratory</p>
+	<button type="button" id="btn">How much plutonium do thorium reactors produce?</button>
+	<div id="produce" class="produce">
+		<p>None.</p>
 	</div>
-	<div class="energysafe">
-		<p>Because energy is so fundamental to our civilization, it is important that we be sure that it isn't a source of destruction to it.</p>
+	<script>
+	document.getElementById("btn").onclick = function() {myFunction()};
+	function myFunction() {
+  		document.getElementById("myDropdown").classList.toggle("show");
+	}
+	</script>
+	<div class="text">
+		<div class="flyash">
+			<p>"The fly ash emitted by a coal power plant—a by-product from burning coal for electricity
+			carries into the surrounding environment</p>
+			<p> 100 times more radiation than a nuclear
+			power plant producing the same amount of energy."</p>
+			<p>-Dana Christensen: Associate Lab Director at Oak Ridge National Laboratory</p>
+		</div>
+		<div class="energysafe">
+			<p>Because energy is so fundamental to our civilization, it is important that we be sure that it isn't a source of destruction to it.</p>
+			<p>This is why research and further development into thorium reactors is so important.</p>
+			<p>Modern nuclear reactors are using Uranium not because it is safer, but because it's more profitable.</p>
+			<p>Nuclear can be one of the safest energy sources on the planet, however because of profit incentives to produce excess plutonium</p>
+			<p id="risk">Average citizens are put at risk.</p>
+		</div>
 	</div>
 </body>
 </html>
