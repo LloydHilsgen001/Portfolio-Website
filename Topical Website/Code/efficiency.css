@@ -11,7 +11,7 @@ a {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
  	text-decoration: none;
- 	outline-color:rgb(87,87,87);
+ 	outline-color:rgb(187,187,187);
  	outline-style:solid;
  	outline-width:thin;
  	background-color:(225,225,225);
@@ -51,4 +51,13 @@ h3 {
 }
 .tonstext a {
 	text-decoration: underline;
+}
+.header {
+	height: 57px;
+}
+.dropdowncontent a {
+	background-color: rgba(0,0,0,0.55);
+}
+h4 {
+	color:white;
 }

@@ -9,7 +9,7 @@ p {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
  	text-decoration: none;
- 	outline-color:rgb(87,87,87);
+ 	outline-color:rgb(200,200,200);
  	outline-style:solid;
  	outline-width:thin;
  	background-color:(225,225,225);
@@ -29,7 +29,7 @@ h3 {
  	position: absolute;
  	top: -16px;
  	left: 140px;
- 	letter-spacing: 2px;	
+ 	letter-spacing: 2px;
 }
 .dropdowncontent {
 	display: none;
@@ -54,4 +54,10 @@ h3 {
 }
 .risingneeds{
 	background-color: rgba(0,0,0,0.30);
+}
+h4 {
+	color:white;
+}
+.header {
+	height: 55px;
 }

@@ -11,13 +11,13 @@ p {
  	font-family: 'Rubik', sans-serif;
 }
 .header {
-	height: 65px;
+	height: 80px;
 }
 .header a {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
  	text-decoration: none;
- 	outline-color:rgb(87,87,87);
+ 	outline-color:rgb(50,50,50);
  	outline-style:solid;
  	outline-width:thin;
  	background-color:(225,225,225);
