@@ -4,10 +4,10 @@ html {
 	background-size:cover;
 }
 p {
- 	color: rgb(240,240,240);
+ 	color: antiquewhite;
  	font-family: 'Rubik', sans-serif;
 }
-.header a {
+a {
  	font-family: 'Rubik', sans-serif;
  	color:antiquewhite;
  	text-decoration: none;
@@ -19,8 +19,9 @@ p {
 h1 {
  	font-family: 'Rubik', sans-serif;
 }	
-h2 {
+h3 {
  	font-family: 'Rubik', sans-serif;
+	color:antiquewhite;
 }
 .dropdown {
  	text-decoration: none;
@@ -44,4 +45,10 @@ h2 {
 }
 .dropdown:hover .dropdowncontent {
 	display: block;
+}
+.tonstext {
+	background-color: rgba(0,0,0,0.55);
+}
+.tonstext a {
+	text-decoration: underline;
 }

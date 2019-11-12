@@ -19,15 +19,15 @@
 </head>
 <body>
 	<button type="button" id="btn">How much plutonium do thorium reactors produce?</button>
-	<div id="produce" class="produce">
-		<p>None.</p>
-	</div>
 	<script>
 	document.getElementById("btn").onclick = function() {myFunction()};
 	function myFunction() {
-  		document.getElementById("myDropdown").classList.toggle("show");
+  		document.getElementById("produce").classList.toggle("show");
 	}
 	</script>
+	<div id="produce" class="produce">
+		<p>None.</p>
+	</div>
 	<div class="text">
 		<div class="flyash">
 			<p>"The fly ash emitted by a coal power plant—a by-product from burning coal for electricity
