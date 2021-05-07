@@ -5,7 +5,7 @@ p {
  color: rgb(240,240,240);
  font-family: 'Rubik', sans-serif;
 }
-.header a {
+a {
  font-family: 'Rubik', sans-serif;
  border-style: outset;
  color: rgb(0,0,0);
@@ -44,6 +44,11 @@ height: 64px;
 .dropdown:hover .dropdowncontent {
  display: block;
 }
+
+.largerlinks a {
+ size: 200px;
+}
+
 @-webkit-keyframes rainbowFade {
     00.00% {color: rgb(255, 0, 0);}
 	16.66% {color: rgb(255, 165, 0);}
