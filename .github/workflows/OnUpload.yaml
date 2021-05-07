@@ -17,3 +17,14 @@ jobs:
         run: ./gradlew run
         with:
           path: WordRiver/server
+      - name: Build Client
+        run: npm install
+        with:
+          path: WordRiver/client
+        run: ng serve
+        with:
+          path: WordRiver/client
+      - name: Build Database
+        run: .\mongoseed.bat
+        with:
+          path: WordRiver/database
