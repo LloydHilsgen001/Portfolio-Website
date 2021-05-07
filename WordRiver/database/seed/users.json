@@ -1,0 +1,184 @@
+[
+  {
+    "_id": {
+      "$oid": "588935f57546a2daea44de7c"
+    },
+    "email": "test",
+    "emailVerified": "test",
+    "name": "Conni Stewart",
+    "pictureUrl": "test",
+    "locale": "test",
+    "familyName": "test",
+    "givenName": "test",
+    "admin": false
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c94"
+    },
+    "email": "dahlg136@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Thomas Dahlgren",
+    "pictureUrl": "https://lh4.googleusercontent.com/-Qr6bqYJzOxU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucm0ujix_cI0qJuxa7HDIK_rSWXSAg/s96-c/photo.jpg",
+    "locale": "en",
+    "familyName": "Dahlgren",
+    "givenName": "Thomas",
+    "sub": "109014840139928924076",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c25"
+    },
+    "email": "lamberty@morris.umn.edu",
+    "emailVerified": true,
+    "name": "KK Lamberty",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "Lamberty",
+    "givenName": "KK",
+    "sub": "123456789",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c20"
+    },
+    "email": "schu4276@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Cassie S",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "S",
+    "givenName": "Cassie",
+    "sub": "12345678",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c19"
+    },
+    "email": "paul1098@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Halley P",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "P",
+    "givenName": "Halley",
+    "sub": "1234567",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c18"
+    },
+    "email": "hjeld013@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Isabelle H",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "H",
+    "givenName": "Isabelle",
+    "sub": "123456",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c17"
+    },
+    "email": "quist127@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Josh Q",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "Q",
+    "givenName": "Josh",
+    "sub": "123456",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c15"
+    },
+    "email": "mcphee@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Nic M",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "m",
+    "givenName": "Nic",
+    "sub": "someweirdstring",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c75"
+    },
+    "email": "walbr037@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Joe W",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "W",
+    "givenName": "Joe",
+    "sub": "helloImanID",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015c10"
+    },
+    "email": "mill7707@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Jeffrey",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "M",
+    "givenName": "Jeffrey",
+    "sub": "jeff",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015ced"
+    },
+    "email": "abbas070@umn.edu",
+    "emailVerified": true,
+    "name": "Elmurad",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "A",
+    "givenName": "Elmurad",
+    "sub": "Elmurad",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015caf"
+    },
+    "email": "hilsg008@umn.edu",
+    "emailVerified": true,
+    "name": "Lloyd",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "H",
+    "givenName": "Lloyd",
+    "sub": "lloyd",
+    "admin": true
+  },
+  {
+    "_id": {
+      "$oid": "606a5a9fd2b1da77da015cef"
+    },
+    "email": "joh18484@morris.umn.edu",
+    "emailVerified": true,
+    "name": "Blake",
+    "pictureUrl": "null",
+    "locale": "en",
+    "familyName": "J",
+    "givenName": "Blake",
+    "sub": "blake",
+    "admin": true
+  }
+]
+

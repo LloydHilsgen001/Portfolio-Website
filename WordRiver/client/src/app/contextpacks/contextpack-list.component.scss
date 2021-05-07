@@ -1,0 +1,45 @@
+.contextpack-cards-container {
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.div {
+  align-items: center;
+}
+
+
+.contextpack-card {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contextpack-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  text-align: center;
+}
+
+.mat-card-content{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-radio-button {
+  margin: 0 12px;
+}
+
+.add-contextpack-fab {
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  float: right;
+  background-color: skyblue;
+}
+
